@@ -1,0 +1,26 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none; /* elimina los identificadores de ul */
+    padding-left: 0; /*elimina un espacio interno - por defecto el navegador le agrega un pading  */
+    background-color: #13a4a4; /* color de fondo */
+
+}
+.main-nav__item 
+{
+    display: inline-block; /* Cambia el orden de sentido vertical a horizontal */
+}
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px; /* agrega un radio a los bloques*/
+    text-decoration: none;
+}
+.main-nav__item a:hover{  /* Da la funcionalidad de que cuando se coloque el cursor sobre el menu se cambie a azul */
+    color: blue;
+}
+.main-nav__item a:active{ /* Cambia de color cuando se da click sobre el menu*/
+    color: red;
+}
+.main-nav__item a::after{ /* agrega un elemento*/
+    content: "  |";
+}

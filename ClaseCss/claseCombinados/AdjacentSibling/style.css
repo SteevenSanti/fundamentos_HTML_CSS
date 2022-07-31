@@ -1,0 +1,3 @@
+h2 + p { /*Que coloque en rojo todas las etiquetas p que se encuentren cerca a una etiqueta h2  "adjacent sibling"*/
+    color: red;
+}

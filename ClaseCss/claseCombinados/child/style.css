@@ -1,0 +1,3 @@
+div  p { /*La etiqueta p que se encuentre dentro de div aplica es siguiente estilo*/
+    color: red;
+}

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 100vw; /* Es para que se vea en todo*/
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 60%; /* se lo puede cambiar a min-height para asignarle un valor minimo y en caso se que tenga más contenido este incremente de tamaño.*/
+    margin: 0 auto; /** Agrega un margen 0 de arriba a abajo, pero el auto agrega un margen igual a ambos lados **/
+    background-color: black;
+}
+p {
+    color: white;
+}

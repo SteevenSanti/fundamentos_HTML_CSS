@@ -1,0 +1,3 @@
+h2 ~ p {   /* Agrega el estilo a todas las etiquetas p que se encuentren dentro de una etiqueta contenedora y en ella exita la etiqueta h2*/
+    color: red;
+}

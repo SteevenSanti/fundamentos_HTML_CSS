@@ -1,0 +1,6 @@
+.texto-container {
+    font-size: 1.5em; /*los em toma el tamaño de fuente del padre*/
+}
+.texto-container div {
+    font-size: 1.5em;
+}

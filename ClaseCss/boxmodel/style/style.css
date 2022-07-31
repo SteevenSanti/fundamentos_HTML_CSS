@@ -1,0 +1,14 @@
+/*Reset los CSS del navegador*/
+* {
+    box-sizing: border-box; /*Se hace un calculo automatico entre el border y padding para evitar el deslizamito*/
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px; /* se agrega 20px a arriba y abajo, 35px de izquierda a derecha*/
+                        /* se puede usar padding-left: ; */
+}
